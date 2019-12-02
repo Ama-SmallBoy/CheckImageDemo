@@ -16,19 +16,19 @@
                 <rect key="frame" x="0.0" y="0.0" width="323" height="86"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <stackView opaque="NO" contentMode="scaleAspectFit" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="vZE-Qs-kgQ">
+                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="vZE-Qs-kgQ">
                         <rect key="frame" x="0.0" y="0.0" width="323" height="86"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="bg4-iF-tBF">
-                                <rect key="frame" x="0.0" y="0.0" width="81" height="86"/>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="bg4-iF-tBF">
+                                <rect key="frame" x="0.0" y="0.0" width="81" height="86.000000000000227"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2" translatesAutoresizingMaskIntoConstraints="NO" id="Tqe-0u-efa">
-                                <rect key="frame" x="81" y="0.0" width="80.5" height="86"/>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2" translatesAutoresizingMaskIntoConstraints="NO" id="Tqe-0u-efa">
+                                <rect key="frame" x="81" y="0.0" width="80.500000000000227" height="86"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3" translatesAutoresizingMaskIntoConstraints="NO" id="uEq-Dk-GEh">
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3" translatesAutoresizingMaskIntoConstraints="NO" id="uEq-Dk-GEh">
                                 <rect key="frame" x="161.5" y="0.0" width="81" height="86"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="4" translatesAutoresizingMaskIntoConstraints="NO" id="5kz-ES-LMg">
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="4" translatesAutoresizingMaskIntoConstraints="NO" id="5kz-ES-LMg">
                                 <rect key="frame" x="242.5" y="0.0" width="80.5" height="86"/>
                             </imageView>
                         </subviews>
@@ -48,7 +48,7 @@
                 <outlet property="image3" destination="uEq-Dk-GEh" id="nAZ-he-tn6"/>
                 <outlet property="image4" destination="5kz-ES-LMg" id="se4-wf-JkH"/>
             </connections>
-            <point key="canvasLocation" x="-170" y="25"/>
+            <point key="canvasLocation" x="-122" y="-48"/>
         </tableViewCell>
     </objects>
     <resources>

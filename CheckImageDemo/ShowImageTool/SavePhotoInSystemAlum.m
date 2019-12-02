@@ -8,7 +8,6 @@
 
 #import "SavePhotoInSystemAlum.h"
 #import "AssistantActionSheet.h"
-#import "UTHudUtil.h"
 
 @interface SavePhotoInSystemAlum ()
 
@@ -49,16 +48,23 @@
         UIImageWriteToSavedPhotosAlbum(imageLast, self, @selector(image:didFinishSavingWithError:contextInfo:), NULL);
         
     } else {
-        [[UTHudUtil shareInstance] toggleMessage:@"请打开允许访问相册权限"];
+        NSLog(@"========请打开允许访问相册权限");
+        //[[UTHudUtil shareInstance] toggleMessage:@"请打开允许访问相册权限"];
     }
 }
+
+
+
 // 指定回调方法
 - (void)image:(UIImage *)image didFinishSavingWithError:(NSError *)error contextInfo:(void *)contextInfo
 {
     if(!error){
-        [[UTHudUtil shareInstance] toggleMessage:@"保存成功"];
+        
+        NSLog(@"========保存成功");
+        //[[UTHudUtil shareInstance] toggleMessage:@"保存成功"];
     }else{
-        [[UTHudUtil shareInstance] toggleMessage:@"保存失败，请打开 设置-隐私-照片 来进行设置"];
+        NSLog(@"========保存失败，请打开 设置-隐私-照片 来进行设置");
+        //[[UTHudUtil shareInstance] toggleMessage:@"保存失败，请打开 设置-隐私-照片 来进行设置"];
     }
 }
 

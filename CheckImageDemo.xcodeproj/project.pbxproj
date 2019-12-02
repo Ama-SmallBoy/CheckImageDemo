@@ -18,8 +18,10 @@
 		0000015E238E13B6005E34B9 /* ImageCheckController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0000015D238E13B6005E34B9 /* ImageCheckController.m */; };
 		00000162238E13DD005E34B9 /* ImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00000160238E13DD005E34B9 /* ImageTableViewCell.m */; };
 		00000163238E13DD005E34B9 /* ImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00000161238E13DD005E34B9 /* ImageTableViewCell.xib */; };
-		004A7DE9238E5E6800AB6083 /* SavePhotoInSystemAlum.m in Sources */ = {isa = PBXBuildFile; fileRef = 004A7DE5238E5E6700AB6083 /* SavePhotoInSystemAlum.m */; };
-		004A7DEA238E5E6800AB6083 /* AssistantActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 004A7DE6238E5E6700AB6083 /* AssistantActionSheet.m */; };
+		000445A42394AFF8008DE1B5 /* ShowImageTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 000445A32394AFF8008DE1B5 /* ShowImageTool.m */; };
+		000445A72394B089008DE1B5 /* SavePhotoInSystemAlum.m in Sources */ = {isa = PBXBuildFile; fileRef = 000445A62394B089008DE1B5 /* SavePhotoInSystemAlum.m */; };
+		000445AA2394B0CF008DE1B5 /* AssistantActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 000445A92394B0CF008DE1B5 /* AssistantActionSheet.m */; };
+		000445AD2394B33A008DE1B5 /* UIColor+RCColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 000445AB2394B33A008DE1B5 /* UIColor+RCColor.m */; };
 		B189664C1D10A0C8380619EF /* libPods-CheckImageDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E309064B4362AB25CA5A57C /* libPods-CheckImageDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -43,10 +45,14 @@
 		0000015F238E13DD005E34B9 /* ImageTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageTableViewCell.h; sourceTree = "<group>"; };
 		00000160238E13DD005E34B9 /* ImageTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageTableViewCell.m; sourceTree = "<group>"; };
 		00000161238E13DD005E34B9 /* ImageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageTableViewCell.xib; sourceTree = "<group>"; };
-		004A7DE5238E5E6700AB6083 /* SavePhotoInSystemAlum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SavePhotoInSystemAlum.m; sourceTree = "<group>"; };
-		004A7DE6238E5E6700AB6083 /* AssistantActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssistantActionSheet.m; sourceTree = "<group>"; };
-		004A7DE7238E5E6700AB6083 /* AssistantActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssistantActionSheet.h; sourceTree = "<group>"; };
-		004A7DE8238E5E6700AB6083 /* SavePhotoInSystemAlum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SavePhotoInSystemAlum.h; sourceTree = "<group>"; };
+		000445A22394AFF8008DE1B5 /* ShowImageTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShowImageTool.h; sourceTree = "<group>"; };
+		000445A32394AFF8008DE1B5 /* ShowImageTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowImageTool.m; sourceTree = "<group>"; };
+		000445A52394B089008DE1B5 /* SavePhotoInSystemAlum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SavePhotoInSystemAlum.h; sourceTree = "<group>"; };
+		000445A62394B089008DE1B5 /* SavePhotoInSystemAlum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SavePhotoInSystemAlum.m; sourceTree = "<group>"; };
+		000445A82394B0CE008DE1B5 /* AssistantActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssistantActionSheet.h; sourceTree = "<group>"; };
+		000445A92394B0CF008DE1B5 /* AssistantActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssistantActionSheet.m; sourceTree = "<group>"; };
+		000445AB2394B33A008DE1B5 /* UIColor+RCColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RCColor.m"; sourceTree = "<group>"; };
+		000445AC2394B33A008DE1B5 /* UIColor+RCColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RCColor.h"; sourceTree = "<group>"; };
 		2E309064B4362AB25CA5A57C /* libPods-CheckImageDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CheckImageDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		698E1C61B0F2EB11B3F138F6 /* Pods-CheckImageDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CheckImageDemo.release.xcconfig"; path = "Target Support Files/Pods-CheckImageDemo/Pods-CheckImageDemo.release.xcconfig"; sourceTree = "<group>"; };
 		CFBC3B00688EFCE23C10F3B0 /* Pods-CheckImageDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CheckImageDemo.debug.xcconfig"; path = "Target Support Files/Pods-CheckImageDemo/Pods-CheckImageDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -85,7 +91,7 @@
 		0000013F238E134E005E34B9 /* CheckImageDemo */ = {
 			isa = PBXGroup;
 			children = (
-				004A7DE4238E5E6700AB6083 /* AssistantActionSheet */,
+				000445A12394AFE8008DE1B5 /* ShowImageTool */,
 				00000140238E134E005E34B9 /* AppDelegate.h */,
 				00000141238E134E005E34B9 /* AppDelegate.m */,
 				00000159238E1385005E34B9 /* ImageCheckTool.h */,
@@ -108,15 +114,19 @@
 			path = CheckImageDemo;
 			sourceTree = "<group>";
 		};
-		004A7DE4238E5E6700AB6083 /* AssistantActionSheet */ = {
+		000445A12394AFE8008DE1B5 /* ShowImageTool */ = {
 			isa = PBXGroup;
 			children = (
-				004A7DE8238E5E6700AB6083 /* SavePhotoInSystemAlum.h */,
-				004A7DE5238E5E6700AB6083 /* SavePhotoInSystemAlum.m */,
-				004A7DE7238E5E6700AB6083 /* AssistantActionSheet.h */,
-				004A7DE6238E5E6700AB6083 /* AssistantActionSheet.m */,
+				000445AC2394B33A008DE1B5 /* UIColor+RCColor.h */,
+				000445AB2394B33A008DE1B5 /* UIColor+RCColor.m */,
+				000445A82394B0CE008DE1B5 /* AssistantActionSheet.h */,
+				000445A92394B0CF008DE1B5 /* AssistantActionSheet.m */,
+				000445A52394B089008DE1B5 /* SavePhotoInSystemAlum.h */,
+				000445A62394B089008DE1B5 /* SavePhotoInSystemAlum.m */,
+				000445A22394AFF8008DE1B5 /* ShowImageTool.h */,
+				000445A32394AFF8008DE1B5 /* ShowImageTool.m */,
 			);
-			path = AssistantActionSheet;
+			path = ShowImageTool;
 			sourceTree = "<group>";
 		};
 		1FD38F64598E49765F716596 /* Pods */ = {
@@ -125,7 +135,6 @@
 				CFBC3B00688EFCE23C10F3B0 /* Pods-CheckImageDemo.debug.xcconfig */,
 				698E1C61B0F2EB11B3F138F6 /* Pods-CheckImageDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -236,12 +245,14 @@
 			files = (
 				0000015E238E13B6005E34B9 /* ImageCheckController.m in Sources */,
 				00000162238E13DD005E34B9 /* ImageTableViewCell.m in Sources */,
+				000445A72394B089008DE1B5 /* SavePhotoInSystemAlum.m in Sources */,
 				00000148238E134E005E34B9 /* ViewController.m in Sources */,
+				000445AD2394B33A008DE1B5 /* UIColor+RCColor.m in Sources */,
 				00000142238E134E005E34B9 /* AppDelegate.m in Sources */,
-				004A7DEA238E5E6800AB6083 /* AssistantActionSheet.m in Sources */,
+				000445A42394AFF8008DE1B5 /* ShowImageTool.m in Sources */,
+				000445AA2394B0CF008DE1B5 /* AssistantActionSheet.m in Sources */,
 				0000015B238E1385005E34B9 /* ImageCheckTool.m in Sources */,
 				00000153238E1350005E34B9 /* main.m in Sources */,
-				004A7DE9238E5E6800AB6083 /* SavePhotoInSystemAlum.m in Sources */,
 				00000145238E134E005E34B9 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

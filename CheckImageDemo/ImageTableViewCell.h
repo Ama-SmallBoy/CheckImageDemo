@@ -9,15 +9,9 @@
 #import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
-
+typedef void(^ShowImageBlock)(UIImageView * imgView);
 @interface ImageTableViewCell : UITableViewCell
-@property (weak, nonatomic) IBOutlet UIImageView *image1;
-@property (weak, nonatomic) IBOutlet UIImageView *image2;
-@property (weak, nonatomic) IBOutlet UIImageView *image3;
-
-@property (weak, nonatomic) IBOutlet UIImageView *image4;
-
-
+@property (nonatomic,copy) ShowImageBlock showImageBlock;
 @end
 
 NS_ASSUME_NONNULL_END

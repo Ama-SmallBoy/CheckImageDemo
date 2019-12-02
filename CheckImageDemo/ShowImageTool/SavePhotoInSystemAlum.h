@@ -3,7 +3,6 @@
 //  UPOC
 //
 //  Created by Mac on 2017/11/13.
-//  Copyright © 2017年 ミ﹏糖uF8FF寅╰☆. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
